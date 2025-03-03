@@ -66,7 +66,7 @@ class Book {
     public Book(String boCode, String boTitle, String boAuthor) {
         this.boCode = boCode;
       this.boTitle= boTitle;
-        this.boAutho = boAuthor;
+        this.boAuthor = boAuthor;
     }
 
     public Book(Book bo) {
@@ -128,7 +128,7 @@ class SanPham {
 
     @Override
     public String toString() {
-        return "ten san pham: " + tenSp+ ", Don gia: " + donGia + ", giam gia: " + giamGia + ", thue nhap khau: " + getthue();
+        return "ten san pham: " + tenSp+ ", Don gia: " + donGia + ", giam gia: " + giamGia + ", thue nhap khau: " + getThue();
     }
 }
 
